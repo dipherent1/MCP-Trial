@@ -7,9 +7,16 @@ This document explains the step-by-step logic and flow behind the MCP Tool Assis
 ## 🛠️ How to Run the Assistant
 
 ### 1. Install Dependencies
+
+Install the required dependencies:
 ```bash
 pip install -r requirements.txt
 ```
+Then navigate to the `groq` directory:
+```bash
+cd /home/biniam/Desktop/Projects/MCP/mcpTrial/groq
+```
+
 Make sure you have `npx`, `uvx`, or any other command used by your tool servers available in your PATH.
 
 ### 2. Prepare Your `.env` File
